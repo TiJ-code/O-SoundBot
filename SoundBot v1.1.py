@@ -11,7 +11,7 @@ intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
 
-bot = commands.Bot(intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 audio_files = []
 voice_client = None
