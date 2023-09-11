@@ -1,0 +1,8 @@
+Add as much music as you want (only .mp3).
+This one will fill each gap were no special
+music is played.
+I.e. 7:00 - special start
+     7:03 - special end / default start
+      ..  - this gap gets filled with as many default tracks that can fit.
+            Tracks that are taking too long will get stopped at →
+     7:30 - default end / special start
