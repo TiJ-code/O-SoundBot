@@ -27,3 +27,12 @@ Now copy the 'bin' folder from the unpacked ffmpeg folder into the newly created
 (Test is only a test folder i created for this showing purpose, this is also were the bot sits)\
 ![The 'bin' folder inside of the newly created 'ffmpeg' directory](https://i.imgur.com/tziMw3r.png)
 ![The files inside the 'bin' folder](https://i.imgur.com/EXFRRSe.png)
+
+
+#### 5. Using
+Do not forget to install all the dependencies that the bot will need.
+```
+pip install -r requirements.txt
+or
+pip3 install -r requirements.txt
+```
