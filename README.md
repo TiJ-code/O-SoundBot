@@ -12,19 +12,19 @@ As shown in the screenshot:\
 
 
 #### 2. Setup .env file
-Write in the .env file as in the screenshot:
-![Required content inside of the .env file](https://i.imgur.com/1YwBsbL.png)
+Write in the .env file as in the screenshot:\
+![Required content inside of the .env file](https://i.imgur.com/xEa26Kz.png)
 
 
-#### 3. Install ffmpeg
+#### 3. Install ffmpeg [WINDOWS]
 Download [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip) and unzip it.
 
 
-#### 4. Setup ffmpeg
+#### 4. Setup ffmpeg [WINDOWS]
 Create a folder with the name "ffmpeg" on the same level as the Bot Python file.\
 ![The newly created 'ffmpeg' directory](https://i.imgur.com/rh4NBQ0.png)\
 Now copy the 'bin' folder from the unpacked ffmpeg folder into the newly created one.\
-(Test is only a test folder i created for this showing purpose, this is also were the bot sits)\
+(Test is only a test folder i created for this showing purpose, this is also where the bot sits)\
 ![The 'bin' folder inside of the newly created 'ffmpeg' directory](https://i.imgur.com/tziMw3r.png)
 ![The files inside the 'bin' folder](https://i.imgur.com/EXFRRSe.png)
 
