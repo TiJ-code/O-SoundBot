@@ -5,22 +5,15 @@ Can be used ideally on e.g. roleplay servers for news.
 
 ## Manual: Setup the bot
 
-#### 1. Create .env file
-Create an .env file at the same level as the Bot Python file.
-As shown in the screenshot:\
-![.env file on the same level as Python file](https://i.imgur.com/PWJ33Pn.png)
+#### 1. Setup *config.json* file
+Put your Token, and the necessary IDs in the given fields.
 
 
-#### 2. Setup .env file
-Write in the .env file as in the screenshot:\
-![Required content inside of the .env file](https://i.imgur.com/xEa26Kz.png)
-
-
-#### 3. Install ffmpeg [WINDOWS]
+#### 2. Install ffmpeg [WINDOWS]
 Download [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip) and unzip it.
 
 
-#### 4. Setup ffmpeg [WINDOWS]
+#### 3. Setup ffmpeg [WINDOWS]
 Create a folder with the name "ffmpeg" on the same level as the Bot Python file.\
 ![The newly created 'ffmpeg' directory](https://i.imgur.com/rh4NBQ0.png)\
 Now copy the 'bin' folder from the unpacked ffmpeg folder into the newly created one.\
@@ -29,7 +22,7 @@ Now copy the 'bin' folder from the unpacked ffmpeg folder into the newly created
 ![The files inside the 'bin' folder](https://i.imgur.com/EXFRRSe.png)
 
 
-#### 5. Using
+#### 4. Using
 Do not forget to install all the dependencies that the bot will need.
 ```
 pip install -r requirements.txt
