@@ -8,7 +8,7 @@ Can be used ideally on e.g. roleplay servers for news.
 #### 1. Setup *config.json* file
 Put your Token, and the necessary IDs in the given fields.
 
-
+### **IMAGES OUTDATED**
 #### 2. Install ffmpeg [WINDOWS]
 Download [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip) and unzip it.
 
