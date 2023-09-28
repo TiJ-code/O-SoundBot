@@ -1,0 +1,11 @@
+{
+  "TOKEN": "/ Your Discord Bot token here -- Do not share /",
+  "GUILD_ID": "/ Put your server/guild id here /",
+  "VOICE_CHANNEL_ID": "/ Put the voice channel id here, where your bot will sit in /",
+  "NOTIFIER_ID": "/ Add the ID of the user here - you can even add multiple users by splitting the IDs with ; [semicolon] /",
+  "PATHS": {
+    "DEFAULT": "Sounds\\Default\\",
+    "SPECIAL": "Sounds\\Special\\",
+    "FFMPEG": "path/to/ffmpeg"
+  }
+}
