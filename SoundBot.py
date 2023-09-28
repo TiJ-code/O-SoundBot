@@ -1,7 +1,7 @@
 import os, random, asyncio, datetime, discord, requests, json
 from discord.ext import commands, tasks
 
-version = "v1.3"
+version = "v1.2"
 GITHUB_REPO_API = "https://api.github.com/repos/TiJ-code/O-SoundBot/releases/latest"
 
 config = json.load(open('config.json'))
@@ -103,7 +103,7 @@ async def check_github_release():
         for id_ in notified_users:
             user = await bot.fetch_user(int(id_))
             await user.send(
-                f'Hey {user.mention},\nthere is a **new version** of me.\n**Check out** the new version **{latest_release}** in repository TiJ_code/O-SoundBot.\n→ https://github.com/TiJ-code/O-SoundBot/releases/tag/latest')
+                f'Hey {user.mention},\nthere is a **new version** of me.\n**Check out** the new version **{latest_release}** in repository TiJ_code/O-SoundBot.\n→ https://github.com/TiJ-code/O-SoundBot/releases/latest')
     elif latest_id < version_id:
         print(
             f"Heyo, i'm newer than the actual github version. Thats dope, but thats an beta version then. Maybe try to switch to a more stable version.")
